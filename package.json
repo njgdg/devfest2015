@@ -1,0 +1,28 @@
+{
+  "name": "gulp-boilerplate",
+  "version": "1.1.0",
+  "description": "A web front-end boilerplate by gulp.",
+  "keywords": [
+    "boilerplate",
+    "gulp",
+    "template"
+  ],
+  "author": "zhangyang",
+  "email": "px.zhangyang@gmail.com",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-file-include": "*",
+    "gulp-imagemin": "*",
+    "gulp-less": "*",
+    "gulp-minify-css": "*",
+    "gulp-rev-all": "*",
+    "gulp-rimraf": "*",
+    "gulp-uglify": "*"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.0.3",
+    "gulp-postcss": "^6.0.1"
+  }
+}
