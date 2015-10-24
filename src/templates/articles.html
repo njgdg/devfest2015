@@ -1,19 +1,25 @@
 <div id="articles" class="global-section">
+
     @@include('./header.html')
+
     <div class="section-banner">
         <div class="am-container">
-            <a href="javascript:;" class="logo-white">
+            <a href="#/" class="white-logo">
                 <img src="img/logo-white.svg" alt="">
             </a>
             <h1 class="section-title">最新文章</h1>
         </div>
     </div>
     <div class="section-ctn">
-
+        <div class="am-container">
+            <ul id="articleList" class="article-list am-g">
+                
+            </ul>
+        </div>
     </div>
     <div class="footer">
         <div class="am-container">
-            <div class="back-to-top" onclick="eval('document.getElementById('articles').scrollTop = 0')">
+            <div class="back-to-top" onclick="document.getElementById('articles').scrollTop=0">
                 回到顶部 <i class="am-icon-angle-up"></i>
             </div>
             <div class="am-g">
