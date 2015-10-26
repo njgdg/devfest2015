@@ -1,16 +1,22 @@
 {
     "data" : [
         {
+            "title" : "南京GDG DevFest2015前瞻",
+            "url" : "#/post/preview",
+            "brief" : "Nanjing GDG DevFest 即「南京GDG Developers Festival」。是由谷歌出资，南京GDG组织者团队承办",
+            "createdAt" : "2015-10-25"
+        },
+        {
             "title" : "寻找分享者",
             "url" : "#/post/lookingfor",
             "brief" : "无伦你是什么领域，无论是产品、技术、运营各个方面的分享，只要你想，我们就有可能提供给大家分享平台",
-            "createdAt" : "2015-10-14"
+            "createdAt" : "2015-10-24"
         },
         {
             "title" : "DevFest2015大会日程",
             "url" : "#/post/schedule",
-            "brief" : "南京GDG DevFest2015大会日程安排及主题介绍，大会包括三大板块，主题分享、CodeLab、闪电演讲，详细日程请阅读文章",
-            "createdAt" : "2015-10-14"
+            "brief" : "南京GDG DevFest2015大会日程安排及主题介绍，大会包括三大板块，主题分享、CodeLab、闪电演讲，详细",
+            "createdAt" : "2015-10-18"
         },
         {
             "title" : "南京GDG及DevFest介绍",

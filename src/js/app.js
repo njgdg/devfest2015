@@ -63,10 +63,10 @@
     var articleList = $('#articleList');
     var articleDetail = $('#articleDetail');
 
-    win.on('resize', function(){
-        globalSections.height(win.height());
-    });
-    globalSections.height(win.height());
+    // win.on('resize', function(){
+    //     globalSections.height(win.height());
+    // });
+    // globalSections.height(win.height());
 
     // hash 路由
     Txbb.Router.route('/', showIndex);

@@ -17,9 +17,9 @@
                     <div class="logo">
                         <img src="img/logo.svg" alt="GDG DevFest Nanjing">
                     </div>
-                    <div class="time">2015年11月15日，楚翘城</div>
+                    <div class="time">2015年11月15日，楚翘城4号楼2层，氪空间</div>
                     <p>一年一度的南京互联网盛会，由南京GDG组织者倾力承办，Web、Android、Server、Design 各个方面的大牛与你面对面交流，还有 CodeLab 现场动手编程，免费茶歇！</p>
-                    <p>雨花区安德门大街61号楚翘城4号楼2层</p>
+                    <p>南京GDG DevFest，给码农一个聚会的理由！</p>
                     <p>
                         <a href="#/post/lookingfor">我想成为分享者</a>&nbsp;&nbsp;&nbsp;&nbsp;
                         <!-- <a target="_blank" href="https://gdgdocs.org/forms/d/1ly-oAUpwLBP75uXCAEe4265BC07Scc-I0ge_cmmO5Cs/viewform?fbzx=7882340574252439896"> -->
@@ -87,7 +87,7 @@
                         <div class="am-u-md-6">
                             <div class="avatar" style="background-image:url(img/speakers/dpx.jpg)"></div>
                             <h1 class="title">杜鹏霄</h1>
-                            <p class="desc">GDG组织者</p>
+                            <p class="desc">Webeye</p>
                         </div>
                         <div class="am-u-md-6">
                             <div class="avatar" style="background-image:url(img/speakers/xb.png)"></div>
@@ -101,28 +101,28 @@
                 <div class="am-u-sm-6">
                     <div class="am-g">
                         <div class="am-u-md-6">
-                            <div class="avatar"></div>
+                            <div class="avatar" style="background-image:url(img/speakers/cfx.jpg)"></div>
                             <h1 class="title">褚福玺</h1>
-                            <p class="desc">GDG组织者/联想</p>
+                            <p class="desc">联想</p>
                         </div>
                         <div class="am-u-md-6">
-                            <div class="avatar"></div>
+                            <div class="avatar" style="background-image:url(img/speakers/cbb.jpg)"></div>
                             <h1 class="title">蔡彬彬</h1>
-                            <p class="desc">未知</p>
+                            <p class="desc">Think Yeah</p>
                         </div>
                     </div>
                 </div>
                 <div class="am-u-sm-6">
                     <div class="am-g">
                         <div class="am-u-md-6">
-                            <div class="avatar"></div>
+                            <div class="avatar" style="background-image:url(img/speakers/zj.jpg)"></div>
                             <h1 class="title">仲杰</h1>
-                            <p class="desc">未知</p>
+                            <p class="desc">QiiLA Games</p>
                         </div>
                         <div class="am-u-md-6">
-                            <div class="avatar"></div>
+                            <div class="avatar" style="background-image:url(img/speakers/zy.jpg)"></div>
                             <h1 class="title">张杨</h1>
-                            <p class="desc">GDG组织者/同学帮帮</p>
+                            <p class="desc">同学帮帮</p>
                         </div>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
         <div class="location-card">
             <h1 class="title">场馆位置</h1>
             <p class="desc">楚翘城4号楼2层，雨花区安德门大街61号，氪空间</p>
-            <a href="http://ditu.amap.com/search?query=%E6%A5%9A%E7%BF%98%E5%9F%8E&city=320100" target="_blank" class="link">获取位置</a>
+            <a href="http://m.amap.com/detail/mapview/poiid=B0FFF3K54D" target="_blank" class="link">获取位置</a>
         </div>
     </div>
 
@@ -195,30 +195,7 @@
         <a href="//txbb.com" target="_blank" title="同学帮帮"><img src="img/logos/txbb.png" width="50" alt=""></a>
     </div>
 
-    <div class="footer">
-        <div class="am-container">
-            <div class="back-to-top" onclick="eval('document.body.scrollTop = 0')">
-                回到顶部 <i class="am-icon-angle-up"></i>
-            </div>
-            <div class="am-g">
-                <div class="am-u-md-4">
-                    <h1 class="title">关于我们</h1>
-                    <p><a href="https://developers.google.com/" target="_blank">Google Developers 官网</a></p>
-                    <p><a href="http://www.njgdg.org/devfest/" target="_blank">南京 GDG DevFest 2014</a></p>
-                </div>
-                <div class="am-u-md-4">
-                    <h1 class="title">联系我们</h1>
-                    <p><a target="_blank" href="http://weibo.com/u/2627645705">微博</a></p>
-                    <p><a target="_blank" href="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MjM5OTA5OTk1Nw==">微信</a></p>
-                    <p>QQ群：230448398</p>
-                </div>
-                <div class="am-u-md-4">
-                    <img src="img/qrcode.jpg" width="130" alt="南京GDG微信">
-                </div>
-            </div>
-            <p class="copyright">© 2015 借鉴于 Project Hoverboard，由 Oleh Zasadnyy · GDG Lviv 设计，由 <a href="#">张杨</a> 开发</p>
-        </div>
-    </div>
+    @@include('./templates/footer.html')
 
     <div id="gallery" class="gallery" style="display:none">
         <h1 class="title" onclick="$('#gallery').zyHide()">&nbsp;<i class="am-icon-angle-left"></i>&nbsp;南京 GDG DEVFEST 2014回顾</h1>
@@ -247,5 +224,16 @@
     @@include('./templates/articles.html')
 
     @@include('./templates/scripts.html')
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-69291989-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </body>
 </html>
