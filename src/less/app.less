@@ -1,5 +1,9 @@
 @import "../bower_components/amazeui/less/amazeui";
 
+html, body {
+    overflow-x: hidden;
+}
+
 .header {
     padding: 20px 0;
     .am-nav {
@@ -284,9 +288,9 @@
     top: 0;
     left: 0;
     background-color: #fcfcfc;
-    overflow: auto;
     z-index: 10;
     display: none;
+    overflow-y: auto;
     -webkit-overflow-scrolling : touch;
     .am-container {
         position: relative;

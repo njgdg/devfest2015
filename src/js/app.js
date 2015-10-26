@@ -75,12 +75,12 @@
     Txbb.Router.endRoute();
 
     function toTop() {
-        bod.css('overflow', 'hidden');
+        bod.css('overflow-y', 'hidden');
         bod.scrollTop(0);
     }
 
     function showIndex() {
-        bod.css('overflow', 'auto');
+        bod.css('overflow-y', 'auto');
         globalSections.css('display', 'none');
         $.get('data/posts.json', function(resp){
             var data = resp.data.slice(0, 2);
@@ -91,7 +91,8 @@
 
     function showArticles() {
         toTop();
-        globalSections.css('display', 'none');
+        // bod.css('display', 'none');
+        article.css('display', 'none');
         articles.css('display', 'block');
         $.get('data/posts.json', function(resp){
             var tmpl = compileTmpl('each', 'tmplPostCard', resp.data);
@@ -101,7 +102,8 @@
 
     function showArticle(name) {
         toTop();
-        globalSections.css('display', 'none');
+        // bod.css('display', 'none');
+        articles.css('display', 'none');
         article.css('display', 'block');
         $.get('posts/'+ name +'.md', function(resp){
             var html = marked(resp);
