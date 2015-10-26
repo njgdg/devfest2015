@@ -3,7 +3,7 @@
 无伦你是什么领域，无论是产品、技术、运营各个方面的分享，只要你想，我们就有可能提供给大家分享平台。
 
 ## 我要分享
-想要成为分享者，请发送自我介绍以及分享主题简介至 [px.zhangyang@gmail.com](mailto:px.zhangyang@gmail.com)。
+想要成为分享者，请发送自我介绍以及分享主题简介至 [chufuxi@gmail.com](mailto:chufuxi@gmail.com)。
 我们会尽快审核内容然后回复邮件给你。
 
 ## 邮件格式
