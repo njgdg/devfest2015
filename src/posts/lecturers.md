@@ -21,10 +21,10 @@
 
 ---
 
-<img src="img/speakers/cfx.jpg" style="width:150px;"/>
-## 褚福玺
-联想移动高级Android工程师，南京谷歌开发者社区发起人。
-> 演讲主题：Android Performance Pattern
+<img src="img/speakers/cbb.jpg" style="width:150px;"/>
+## 蔡彬彬
+资深谷粉，互联网创业者，南京道成科技联合创始人，智能应用锁作者。
+> 演讲主题：草根创业的摸爬滚打
 
 ---
 
@@ -35,10 +35,17 @@ QiiLA Games 架构师，游戏爱好者，Vimer，喜欢有趣的技术。
 
 ---
 
-<img src="img/speakers/cbb.jpg" style="width:150px;"/>
-## 蔡彬彬
-互联网创业者，南京道成科技创始人，专注移动终端个人隐私保护研究5年。
-> 演讲主题：主题待定
+<img src="img/speakers/ghy.jpg" style="width:150px;"/>
+## 高弘扬
+扇贝数据工程师，12年毕业开始从事Python后端开发。 现在负责扇贝数据平台。
+> 演讲主题：kibana用户权限管理
+
+---
+
+<img src="img/speakers/cfx.jpg" style="width:150px;"/>
+## 褚福玺
+联想移动高级Android工程师，南京谷歌开发者社区发起人。
+> 演讲主题：Android Performance Pattern
 
 ---
 
